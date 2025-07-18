@@ -1,0 +1,417 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">  
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+		<title>Yu-Jie Yuan</title>
+			
+			
+		<!-- CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+		<!-- ENDS CSS -->
+
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        
+ 
+	</head>	
+	<body>
+		<div id="portfolio">
+            <div id="portfolio-bio">
+                <br><h1>Yu-Jie Yuan</h1>
+                <h2><a href="mailto:yuanyujie@ict.ac.cn">Email</a> &nbsp; | &nbsp; 
+                <a href="https://scholar.google.com/citations?user=47IZXUAAAAAJ&hl=en">Google Scholar</a> &nbsp; | &nbsp; 
+                <a href="https://github.com/FrozenSilent">Github</a></h2>
+                <br>
+                I am Yu-Jie Yuan, a Ph.D. student at <a href="http://english.ict.cas.cn/">Institute of Computing Technology, Chinese Academy of Sciences</a>, supervised by Prof. <a href="http://www.geometrylearning.com/">Lin Gao</a>. I am also very fortunate to collaborate with Prof. <a href="http://users.cs.cf.ac.uk/Yukun.Lai/">Yu-Kun Lai</a> and Prof. <a href="https://www.graphics.rwth-aachen.de/person/3/">Leif Kobbelt</a>. Previously, I made some attempts on geometry processing (mainly deformation) and deep geometry learning based on mesh representation. My current research interests involve modeling, editing, and generation of neural representations.
+                I have received the mathmatic bachelor degree from <a href="http://en.xjtu.edu.cn/">Xi'an Jiaotong University</a> in 2018.
+                <br><br>
+
+                If you are interested in my work, feel free to send me an email for discussion and potential cooperation. <br>
+                <p style="color:Blue;">I will graduate in January 2025 and am looking for a job opportunity now.</p>
+                <br><br>
+
+
+            </div>
+            
+            <div id="portfolio-photo">
+                <div onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()">
+                <div class="one">
+                    <div class="two" id='self_photo'>
+                      <img src='./imgs/photo_aigc.png' width="220">
+                    </div>
+                    <img src='./imgs/photo.png' width="220">
+                  </div>
+                  <script type="text/javascript">
+                    function zipnerf_start() {
+                      document.getElementById('self_photo').style.opacity = "1";
+                    }
+          
+                    function zipnerf_stop() {
+                      document.getElementById('self_photo').style.opacity = "0";
+                    }
+                    zipnerf_stop()
+                  </script>
+                </div>
+            </div>  
+
+            <div id="portfolio-info">
+                <br><br><h1>Researches</h1>
+                    <table id="portfolio-projects">
+                        <tr style="border-width: 1px">
+                            <td style="margin-bottom: 20px"><img src="./imgs/GS_deformation.png" style="padding-bottom: 10px"></td>
+                            <td style="">
+                                <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+                                <p>
+                                    <b>Real-time Large-scale Deformation of Gaussian Splatting</b><br>
+                                    <a href="http://www.geometrylearning.com/">Lin Gao</a>, <a href="http://people.geometrylearning.com/~jieyang/">Jie Yang</a>, Bo-Tao Zhang, <a href="https://www.jmsun.work/">Jia-Mu Sun</a>, <b>Yu-Jie Yuan</b>, <a href="http://sweb.cityu.edu.hk/hongbofu/">Hongbo Fu</a>, <a href="http://users.cs.cf.ac.uk/Yukun.Lai/">Yu-Kun Lai</a> <br> 
+                                    ACM Transactions on Graphics (SIGGRAPH Asia 2024), 2024, 43 (6)<br>
+                                    <a href="http://geometrylearning.com/GaussianMesh/" target=_black>Project</a> &nbsp;|&nbsp;
+                                    <a href="https://arxiv.org/pdf/2402.04796" target=_black>Paper</a> &nbsp;|&nbsp;
+                                    <a href="https://github.com/IGLICT/GaussianMesh" target=_black>Code</a> &nbsp;|&nbsp;
+                                    <a href="https://geometrylearning.com/GaussianMesh/video/gaussianmesh.mp4" target=_black>Video</a>
+                                </p>
+                                </td><td style="width: 10px;">
+                                </td>
+                                </tr></table>           
+                            </td>
+                        </tr>
+
+                        <tr style="border-width: 1px">
+                            <td style="margin-bottom: 20px"><img src="./imgs/4dynamic.gif" style="padding-bottom: 10px"></td>
+                            <td style="">
+                                <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+                                <p>
+                                    <b>4Dynamic: Text-to-4D Generation with Hybrid Priors</b><br>
+                                    <b>Yu-Jie Yuan</b>, <a href="https://www.graphics.rwth-aachen.de/person/3/">Leif Kobbelt</a>, Jiwen Liu, Yuan Zhang, Pengfei Wan, <a href="http://users.cs.cf.ac.uk/Yukun.Lai/">Yu-Kun Lai</a>, <a href="http://www.geometrylearning.com/">Lin Gao</a> <br> 
+                                    arXiv, 2024 <br>
+                                    <a href="http://arxiv.org/abs/2407.12684" target=_black>Paper</a>
+                                </p>
+                                </td><td style="width: 10px;">
+                                </td>
+                                </tr></table>           
+                            </td>
+                        </tr>
+
+                        <tr style="border-width: 1px">
+                            <td style="margin-bottom: 20px"><img src="./imgs/stylizedgs.png" style="padding-bottom: 10px"></td>
+                            <td style="">
+                                <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+                                <p>
+                                    <b>StylizedGS: Controllable Stylization for 3D Gaussian Splatting</b><br>
+                                    Dingxi Zhang, <b>Yu-Jie Yuan</b>, Zhuoxun Chen, <a href="https://fanglue.github.io/">Fang-Lue Zhang</a>, <a href="https://lynnho.github.io/">Zhenliang He</a>, <a href="https://scholar.google.com/citations?user=Vkzd7MIAAAAJ">Shiguang Shan</a>, <a href="http://www.geometrylearning.com/">Lin Gao</a> <br> 
+                                    arXiv, 2024 <br>
+                                    <a href="https://arxiv.org/abs/2404.05220v2" target=_black>Paper</a>
+                                </p>
+                                </td><td style="width: 10px;">
+                                </td>
+                                </tr></table>           
+                            </td>
+                        </tr>
+
+                        <tr style="border-width: 1px">
+                            <td style="margin-bottom: 20px"><img src="./imgs/3DGS_survey.png" style="padding-bottom: 10px"></td>
+                            <td style="">
+                                <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+                                <p>
+                                    <b>Recent Advances in 3D Gaussian Splatting</b><br>
+                                    <a href="http://people.geometrylearning.com/TongWu/">Tong Wu</a>, <b>Yu-Jie Yuan</b>, <a href="http://people.geometrylearning.com/lingxiao/">Ling-Xiao Zhang</a>, <a href="http://people.geometrylearning.com/~jieyang/">Jie Yang</a>, <a href="https://yanpei.me/">Yan-Pei Cao</a>, <a href="https://sites.cs.ucsb.edu/~lingqi/">Ling-Qi Yan</a>, <a href="http://www.geometrylearning.com/">Lin Gao</a> <br> 
+                                    Computational Visual Media, 2024 <br>
+                                    <a href="https://arxiv.org/pdf/2403.11134" target=_black>Paper</a>
+                                </p>
+                                </td><td style="width: 10px;">
+                                </td>
+                                </tr></table>           
+                            </td>
+                        </tr>
+
+                        <tr style="border-width: 1px">
+                            <td style="margin-bottom: 20px"><img src="./imgs/munerf.png" style="padding-bottom: 0px"></td>
+                            <td style="">
+                                <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+                                <p>
+                                    <b>MuNeRF: Robust Makeup Transfer in Neural Radiance Fields</b><br>
+                                    <b>Yu-Jie Yuan</b><sup>#</sup>, <a href="https://scholar.google.com/citations?user=A2r3eXYAAAAJ&hl=en">Xinyang Han</a><sup>#</sup>, Yue He, <a href="https://fanglue.github.io/">Fang-Lue Zhang</a>, <a href="http://www.geometrylearning.com/">Lin Gao<sup>*</sup></a> <br> 
+                                    IEEE Transactions on Visualization and Computer Graphics (IEEE TVCG), 2024 <br>
+                                    <a href="http://geometrylearning.com/MuNeRF/" target=_black>Project</a>&nbsp;|&nbsp;
+                                    <a href="https://geometrylearning.com/MuNeRF/static/MuNeRF_TVCG.pdf" target=_black>Paper</a>
+                                </p>
+                                </td><td style="width: 10px;">
+                                </td>
+                                </tr></table>           
+                            </td>
+                        </tr>
+
+                        <tr style="border-width: 1px">
+                            <td style="margin-bottom: 20px"><img src="./imgs/cycletransformer.png" style="padding-bottom: 20px"></td>
+                            <td style="">
+                                <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+                                <p>
+                                    <b>Multi-Level Patch Transformer for Style Transfer with Single Reference Image</b><br>
+                                    Yue He<sup>#</sup>, Lan Chen<sup>#</sup>, <b>Yu-Jie Yuan</b>, <a href="http://people.geometrylearning.com/csy/">Shu-Yu Chen</a>, <a href="http://www.geometrylearning.com/">Lin Gao<sup>*</sup></a> <br> 
+                                    The 12th international conference on Computational Visual Media (CVM 2024) <br>
+                                    <a href="http://iccvm.org/2024/papers/lncs/45.pdf" target=_black>Paper</a>
+                                </p>
+                                </td><td style="width: 10px;">
+                                </td>
+                                </tr></table>           
+                            </td>
+                        </tr>
+
+                        <tr style="border-width: 1px">
+                            <td style="margin-bottom: 20px"><img src="./imgs/interactive.gif" style="padding-bottom: 5px"></td>
+                            <td style="">
+                                <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+                                <p>
+                                    <b>Interactive NeRF Geometry Editing with Shape Priors</b><br>
+                                    <b>Yu-Jie Yuan</b>, <a href="https://sunyangtian.github.io/">Yang-Tian Sun</a>, <a href="http://users.cs.cf.ac.uk/Yukun.Lai/">Yu-Kun Lai</a>, Yuewen Ma, Rongfei Jia, <a href="https://www.graphics.rwth-aachen.de/person/3/" target="_blank">Leif Kobbelt</a>, <a href="http://www.geometrylearning.com/">Lin Gao<sup>*</sup></a> <br> 
+                                    IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI), 2023 <br>
+                                    <a href="http://geometrylearning.com/InteractiveNeRFEditing/" target=_black>Project</a>&nbsp;|&nbsp;
+                                    <a href="https://orca.cardiff.ac.uk/id/eprint/162655/1/NeRFGeometryEditing_TPAMI.pdf" target=_black>Paper</a>
+                                </p>
+                                </td><td style="width: 10px;">
+                                </td>
+                                </tr></table>           
+                            </td>
+                        </tr>
+
+                        <tr style="border-width: 1px">
+                            <td style="margin-bottom: 20px"><img src="./imgs/nerf_overview.jpg" style="padding-bottom: 15px"></td>
+                            <td style="">
+                                <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+                                <p>
+                                    <b>神经辐射场研究进展 (A Survey of Neural Radiance Fields)</b><br>
+                                    <b>Yu-Jie Yuan</b>, <a href="http://people.geometrylearning.com/TongWu/">Tong Wu</a>, <a href="http://people.geometrylearning.com/~jieyang/">Jie Yang</a>, <a href="http://www.geometrylearning.com/">Lin Gao</a> <br> 
+                                    中国图象图形学学会通讯, 2(1), 9-25, 2023 <br>
+                                    <a href="https://book.yunzhan365.com/azuuh/kzvl/mobile/index.html" target=_black>Paper</a>
+                                </p>
+                                </td><td style="width: 10px;">
+                                </td>
+                                </tr></table>           
+                            </td>
+                        </tr>
+
+                        <tr style="border-width: 1px">
+                            <td style="margin-bottom: 20px"><img src="./imgs/tpami.jpg" style="padding-bottom: 15px"></td>
+                            <td style="">
+                                <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+                                <p>
+                                    <b>RGBDNeRF: Neural Radiance Fields from Sparse RGB-D Images for High-Quality View Synthesis</b><br>
+                                    <b>Yu-Jie Yuan</b>, <a href="http://users.cs.cf.ac.uk/Yukun.Lai/">Yu-Kun Lai</a>, <a href="https://yihua7.github.io/website/">Yi-Hua Huang</a>, <a href="https://www.graphics.rwth-aachen.de/person/3/">Leif Kobbelt</a>, <a href="http://www.geometrylearning.com/">Lin Gao<sup>*</sup></a><br> 
+                                    IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI), 2022 <br>
+                                    <a href="http://geometrylearning.com/rgbdnerf/" target=_black>Project</a>&nbsp;|&nbsp;
+                                    <a href="https://ieeexplore.ieee.org/document/9999509" target=_black>Paper</a>&nbsp;|&nbsp;
+                                    <a href="https://github.com/IGLICT/RGBDNeRF" target=_black>Code</a>
+                                </p>
+                                </td><td style="width: 10px;">
+                                </td>
+                                </tr></table>           
+                            </td>
+                        </tr>
+
+                        <tr style="border-width: 1px">
+                            <td style="margin-bottom: 20px"><img src="./imgs/nerfediting.gif" style="padding-bottom: 10px"></td>
+                            <td style="">
+                                <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+                                <p>
+                                    <b>NeRF-Editing: Geometry Editing of Neural Radiance Fields</b><br>
+                                    <b>Yu-Jie Yuan</b><sup>#</sup>, <a href="https://sunyangtian.github.io/">Yang-Tian Sun</a><sup>#</sup>, <a href="http://users.cs.cf.ac.uk/Yukun.Lai/">Yu-Kun Lai</a>, Yuewen Ma, Rongfei Jia, <a href="http://www.geometrylearning.com/">Lin Gao<sup>*</sup></a> <br> 
+                                    IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022 <br>
+                                    <a href="http://geometrylearning.com/NeRFEditing/" target=_black>Project</a>&nbsp;|&nbsp;
+                                    <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Yuan_NeRF-Editing_Geometry_Editing_of_Neural_Radiance_Fields_CVPR_2022_paper.pdf" target=_black>Paper</a>&nbsp;|&nbsp;
+                                    <a href="https://github.com/IGLICT/NeRF-Editing" target=_black>Code</a>
+                                    
+                                </p>
+                                </td><td style="width: 10px;">
+                                </td>
+                                </tr></table>           
+                            </td>
+                        </tr> 
+
+                        <tr style="border-width: 1px">
+                            <td style="margin-bottom: 20px"><img src="./imgs/stylenerf.gif" style="padding-bottom: 5px"></td>
+                            <td style="">
+                                <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+                                <p>
+                                    <b>StylizedNeRF: Consistent 3D Scene Stylization as Stylized NeRF via 2D-3D Mutual Learning</b><br>
+                                    <a href="https://yihua7.github.io/website/">Yi-Hua Huang</a>, Yue He, <b>Yu-Jie Yuan</b>, <a href="http://users.cs.cf.ac.uk/Yukun.Lai/">Yu-Kun Lai</a>, <a href="http://www.geometrylearning.com/">Lin Gao<sup>*</sup></a> <br> 
+                                    IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022 <br>
+                                    <a href="http://geometrylearning.com/StylizedNeRF/" target=_black>Project</a>&nbsp;|&nbsp;
+                                    <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Huang_StylizedNeRF_Consistent_3D_Scene_Stylization_As_Stylized_NeRF_via_2D-3D_CVPR_2022_paper.pdf" target=_black>Paper</a>&nbsp;|&nbsp;
+                                    <a href="https://github.com/IGLICT/StylizedNeRF" target=_black>Code</a>
+                                </p>
+                                </td><td style="width: 10px;">
+                                </td>
+                                </tr></table>           
+                            </td>
+                        </tr> 
+
+                        <tr style="border-width: 1px">
+                            <td style="margin-bottom: 10px"><img src="./imgs/TM-NET.png" style="padding-bottom: 0px"></td>
+                            <td style="">
+                                <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+                                <p>
+                                    <b>TM-NET: Deep Generative Networks for Textured Meshes</b><br>
+                                    <a href="http://www.geometrylearning.com/">Lin Gao</a>, <a href="http://people.geometrylearning.com/TongWu/">Tong Wu</a>, <b>Yu-Jie Yuan</b>, Ming-Xian Lin, <a href="http://users.cs.cf.ac.uk/Yukun.Lai/">Yu-Kun Lai</a>, <a href="https://www2.cs.sfu.ca/~haoz/">Hao (Richard) Zhang</a><br> 
+                                    ACM Transactions on Graphics (SIGGRAPH ASIA 2021), 2021, 40 (6), 263:1-263:15<br>
+                                    <a href="http://geometrylearning.com/TM-NET/" target=_black>Project</a>&nbsp;|&nbsp;
+                                    <a href="https://arxiv.org/abs/2010.06217" target=_black>Paper</a>&nbsp;|&nbsp;
+                                    Video&nbsp;
+                                    (<a href="https://youtu.be/olRrGX_ZD2Y" target=_black>YouTube</a>&nbsp;|
+                                    <a href="https://www.bilibili.com/video/BV1UA411L7vS" target=_black>Bilibili</a>)
+                                </p>
+                                </td><td style="width: 10px;">
+                                </td>
+                                </tr></table>           
+                            </td>
+                        </tr>
+
+                        <tr style="border-width: 1px">
+                            <td style="margin-bottom: 10px"><img src="./imgs/surveyediting.png" style="padding-bottom: 0px"></td>
+                            <td style="">
+                                <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+                                <p>
+                                    <b>A Revisit of Shape Editing Techniques: from the Geometric to the Neural Viewpoint</b><br>
+                                    <b>Yu-Jie Yuan</b>, <a href="http://users.cs.cf.ac.uk/Yukun.Lai/">Yu-Kun Lai</a>, <a href="http://people.geometrylearning.com/TongWu/">Tong Wu</a>, <a href="http://www.geometrylearning.com/">Lin Gao<sup>*</sup></a>, <a href="http://staff.ustc.edu.cn/~lgliu/">Ligang Liu</a><br> 
+                                    Journal of Computer Science and Technology 36(3): 520-554, 2021<br>
+                                    <a href="https://arxiv.org/abs/2103.01694" target=_black>Paper</a>
+                                </p>
+                                </td><td style="width: 10px;">
+                                </td>
+                                </tr></table>           
+                            </td>
+                        </tr>    
+
+                        <tr style="border-width: 1px">
+                            <td style="margin-bottom: 10px"><img src="./imgs/GCNN-MeshVAE.jpg" style="padding-bottom: 10px"></td>
+                            <td style="">
+                                <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+                                <p>
+                                    <b>Mesh Variational Autoencoders with Edge Contraction Pooling</b><br>
+                                    <b>Yu-Jie Yuan</b>, <a href="http://users.cs.cf.ac.uk/Yukun.Lai/">Yu-Kun Lai</a>, <a href="http://people.geometrylearning.com/~jieyang/">Jie Yang</a>, Qi Duan, <a href="http://sweb.cityu.edu.hk/hongbofu/">Hongbo Fu</a>, <a href="http://www.geometrylearning.com/">Lin Gao*</a><br> 
+                                    Learning 3D Generative Models, CVPR 2020 Workshop<br>
+                                    <a href="http://geometrylearning.com/meshpooling_cvprw2020.pdf" target=_black>Paper</a>&nbsp;|&nbsp;
+                                    <a href="https://github.com/IGLICT/MeshPooling" target=_black>Code</a>
+                                </p>
+                                </td><td style="width: 10px;">
+                                </td>
+                                </tr></table>           
+                            </td>
+                        </tr>  
+
+                        <tr style="border-width: 1px">
+                            <td style="margin-bottom: 10px"><img src="./imgs/asia19.png" style="padding-bottom: 20px"></td>
+                            <td>
+                                <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+                                <p>
+                                    <b>SDM-NET: Deep Generative Network for Structured Deformable Mesh (Awarded the <a href="http://www.replicabilitystamp.org/" target=_black>Replicability Stamp</a>)</b><br>
+                                    <a href="http://www.geometrylearning.com/">Lin Gao</a>, <a href="http://people.geometrylearning.com/~jieyang/">Jie Yang</a>, <a href="http://people.geometrylearning.com/TongWu/">Tong Wu</a>, <b>Yu-Jie Yuan</b>, <a href="http://sweb.cityu.edu.hk/hongbofu/">Hongbo Fu</a>, <a href="http://users.cs.cf.ac.uk/Yukun.Lai/">Yu-Kun Lai</a>, <a href="https://www2.cs.sfu.ca/~haoz/">Hao (Richard) Zhang</a><br>
+                                    ACM Transactions on Graphics (SIGGRAPH Asia), 38(6), 2019<br>
+                                    <a href="http://geometrylearning.com/sdm-net/">Project</a>&nbsp;|&nbsp;
+                                    <a href="http://arxiv.org/abs/1908.04520" target=_black>Paper</a>&nbsp;|&nbsp;
+                                    <a href="../video/sdm-net.mp4 target=_black">Video</a>
+                                </p>
+                                </td><td style="width: 10px;">
+                                </td>
+                                </tr>
+                                </table>           
+                            </td>
+                        </tr>
+
+                        <tr style="border-width: 1px">
+                            <td style="margin-bottom: 10px"><img src="./imgs/CVM2019.png" style="padding-bottom: 10px"></td>
+                            <td>
+                                <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+                                <p>
+                                    <b>Data-Driven Weight Optimization for Real-Time Mesh Deformation</b><br>
+                                    <b>Yu-Jie Yuan</b>, <a href="http://users.cs.cf.ac.uk/Yukun.Lai/">Yu-Kun Lai</a>, <a href="http://people.geometrylearning.com/TongWu/">Tong Wu</a>, <a href="http://humanmotion.ict.ac.cn/en/people/xiashihong.html">Shihong Xia</a>, <a href="http://www.geometrylearning.com/">Lin Gao*</a><br>
+                                    Graphical Models, vol.104, 2019<br>
+                                    <a href="http://geometrylearning.com/paper/Data-Driven2019.pdf" target=_black>Paper</a>
+                                </p>
+                                </td><td style="width: 10px;">
+                                </td>
+                                </tr>
+                                </table>           
+                            </td>
+                        </tr>   
+
+                         
+
+
+                    </table>
+                <br><br><br>
+            </div>
+
+            <div id="portfolio-info">
+                <br><br><h1>Education</h1><br>
+                    <table id="portfolio-projects">
+
+                        <tr style="border-width: 1px">
+                            <td style="margin-bottom: 10px"><img src="./imgs/ucas.png" style="padding-bottom: 10px"></td>
+                            <td>
+                                <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+                                <p>
+                                    <b>University of Chinese Academy of Science </b><br>
+                                    Computer Graphics<br>
+                                    Ph.D. Degree<br>
+                                    September 2018 - present
+                                </p>
+                                </td><td style="width: 10px;">
+                                </td>
+                                </tr>
+                                </table>           
+                            </td>
+                        </tr>   
+
+                        <tr style="border-width: 1px">
+                            <td style="margin-bottom: 10px"><img src="./imgs/XJTU.jpg" style="padding-bottom: 10px"></td>
+                            <td style="">
+                                <table style="width: 100%;"><tr><td style="width: 100%; text-align: left;">
+                                <p>
+                                    <b>Xi'an Jiaotong University</b><br>
+                                    Mathmatics<br>
+                                    Bachelor's Degree <br>
+                                    Rank: 3/60; GPA: 3.87/4.3 <br>
+                                    September 2014 - July 2018
+                                    
+                                </p>
+                                </td><td style="width: 10px;">
+                                </td>
+                                </tr></table>           
+                            </td>
+                        </tr>   
+                    </table>
+                <br><br><br>
+            </div>
+
+
+            <div id="portfolio-info">
+                <br><br><h1>Honors and Awards</h1><br>
+                    <table id="portfolio-projects">
+                        <li>
+                            National Scholarship, 2020 
+                        </li>
+                        <li>
+                            Merit Student of University of Chinese Academy of Sciences, 2019
+                        </li>
+                        <li>
+                            1st Scholarship of University of Chinese Academy of Sciences, 2019
+                        </li>
+                        <li>
+                            Efunds Scholarship, 2019
+                        </li>
+                    	<li>
+                    		Chinese Academy of Sciences Colledge Students Scholarship, 2018.09 
+                    	</li>
+
+                         
+                    </table>
+
+
+                <br><br><br>
+            </div>
+
+
+</div>
+	</body>
+</html>
