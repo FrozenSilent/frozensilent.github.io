@@ -1567,6 +1567,16 @@ body {
   margin-top: 20px;
 }
 
+/* Research section: consistent spacing and vertical centering */
+#portfolio-projects tr {
+  margin-bottom: 25px;
+}
+
+#portfolio-projects td {
+  vertical-align: middle;
+  padding-bottom: 10px;
+}
+
 #portfolio-projects table img {
   margin-top: -10px;
 }
